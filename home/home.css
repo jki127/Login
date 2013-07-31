@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    width: 100%;
+    background: lightgray;
+}
+h1 a {
+    text-decoration: none;
+    color: lightgreen;
+    text-shadow: 0 0 15px green;
+}
+h1 {
+    text-indent: 7px;
+}
+h4 {
+    text-indent: 7px;
+    color: white;
+    text-shadow: 0 0 24px darkblue;
+}
+.search {
+    float: right;
+    position: relative;
+    left: -10px;
+    border-radius: 10px;
+    text-indent: 4px;
+    height: 20px;
+    width: 175px;
+    border: 2px solid transparent;
+    box-shadow: 2px 2px 25px rgba(100, 100, 100, 0.7);
+}
+.nav {
+    float: left;
+}
+.nav > li {
+    display:;
+    list-style: none;
+    padding: 5px;
+    border-radius: 6px;
+}
+.nav > li:nth-child(1) {
+    background: lightgreen;
+}
+.nav > li:nth-child(2) {
+    background: tan;
+}
+.nav > li:nth-child(3) {
+    background: white;
+}
+.nav > li:nth-child(4) {
+    background: lightblue;
+}
+.nav > li:nth-child(5) {
+    background: pink;
+}
+.right {
+    float: right;
+}
+.right div {
+    margin-right: 30px;
+    height: 100px;
+    width: 100px;
+    background: white;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 2px 2px 25px rgba(100, 100, 100, 0.7);
+}
+.right > div:nth-child(1) {
+    background: lightblue;
+    font-family: Droid Sans;
+}
+.right > div:nth-child(2) {
+    position: relative;
+    top: 10px;
+    opacity: 0.7;
+    background: yellow;
+    font-family: Droid Sans;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+    
+    <head>
+        <title>Sign-Up</title>
+        <link href="main.css" rel="stylesheet" type="text/css">
+    </head>
+    
+    <body>
+        <h1 class="title">SPROUT</h1>
+
+        <form>
+            <input id="user" type="text" placeholder="Desired Username">
+            <span type="warn" id="uwarn"></span>
+            <br>
+            <input id="pass" type="password" placeholder="Password">
+            <span type="warn" id="pwarn"></span>
+            <br>
+            <input onkeyup="checkPassConfirm()" id="conpass" type="password" placeholder="Password Confirmation">
+            <span type="warn" id="mismatch"></span>
+            <br>
+            <input id="school" type="text" placeholder="School"/>
+            <span type="warn" id="swarn"></span>
+            <br>
+            <div onclick="validate()" id="done">Register!</div>
+        </form>
+        <script src="main.js" type="text/javascript"></script>
+    </body>
+
+</html>
